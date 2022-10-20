@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Similarity App | Native Version</title>
+    <link type="text/css" rel="stylesheet" href="index.css" />
+    <script src="https://www.unpkg.com/string-similarity@4.0.1/umd/string-similarity.min.js"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>String Similarity Test</h1>
+        </header>
+        <section class="test-results-container">
+            <p id="test_results">This tool displays the similarity coeficient between two strings (texts).</p>
+        </section>
+        <section>
+            <div class="sub-section">
+                <h4>First string:</h4>
+                <textarea id="first_string" autocomplete="off"></textarea>
+            </div>
+            <div class="sub-section">
+                <h4>Second string:</h4>
+                <textarea id="second_string" autocomplete="off"></textarea>
+            </div>
+            <div class="sub-section sub-section-controls">
+                <button id="check_similarity_button">Check similarity</button>
+            </div>
+        </section>
+    </main>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
